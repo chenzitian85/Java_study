@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cfed504-74e4-4e33-b13b-53c2f323d6d7" name="Default Changelist" comment="" />
+    <list default="true" id="7cfed504-74e4-4e33-b13b-53c2f323d6d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/oo3/Mycolloction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaStuy/cn/study/oo3/List_study.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStuy/cn/study/oo3/List_study.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/study/oo3/List_study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/study/oo3/List_study.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,14 +21,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TmSLQ1GncJaPFBKHfbJFAICsiQ" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mindustry-master" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20344828" />
@@ -48,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.List_study">
+  <component name="RunManager" selected="Application.Mycolloction">
     <configuration name="Collection_stydu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.study.oo3.Collection_stydu" />
       <module name="javaStuy" />
@@ -75,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Polym_study" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.study.oo1.Polym_study" />
+    <configuration name="Mycolloction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.study.oo3.Mycolloction" />
       <module name="javaStuy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.study.oo1.*" />
+          <option name="PATTERN" value="cn.study.oo3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exception1_study" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.study.oo3.exception1_study" />
+    <configuration name="Polym_study" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.study.oo1.Polym_study" />
       <module name="javaStuy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.study.oo3.*" />
+          <option name="PATTERN" value="cn.study.oo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Mycolloction" />
         <item itemvalue="Application.List_study" />
         <item itemvalue="Application.super_study" />
         <item itemvalue="Application.Collection_stydu" />
         <item itemvalue="Application.Polym_study" />
-        <item itemvalue="Application.exception1_study" />
       </list>
     </recent_temporary>
   </component>
@@ -136,11 +147,26 @@
       <updated>1574063720393</updated>
       <workItem from="1574063723191" duration="30560000" />
       <workItem from="1574231961198" duration="34953000" />
-      <workItem from="1574645584809" duration="22346000" />
+      <workItem from="1574645584809" duration="22959000" />
+      <workItem from="1574732985892" duration="19681000" />
+      <workItem from="1574837872531" duration="12427000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

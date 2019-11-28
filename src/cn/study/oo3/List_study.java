@@ -1,5 +1,6 @@
 /*
 * 集合
+* 1、Array 本质上还是数组的拷贝
 * */
 package cn.study.oo3;
 
