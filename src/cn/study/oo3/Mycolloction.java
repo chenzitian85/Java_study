@@ -1,5 +1,6 @@
 /*
  * 自定义容器实现
+ * ArrayList
  * */
 package cn.study.oo3;
 
@@ -7,8 +8,9 @@ import javax.xml.soap.Node;
 import java.util.Arrays;
 
 public class Mycolloction<E> {
+    public static int a = 12;
     private Object[] elementData;
-    private int size;
+    private int size; //扩容
     private static final int DEFALT_CAPACITY = 10;
     private Node first;
     private Node last;
@@ -53,6 +55,7 @@ public class Mycolloction<E> {
         for (int i = 0; i < elementData.length; i++) {
             if (element.equals(get(i))) {
                 // 移除
+                remove(i);
             }
         }
 
@@ -62,13 +65,19 @@ public class Mycolloction<E> {
      * 删除操作
      * */
     public void remove(int index) {
+        //1,2,3,4,5
+        //1,2,3,5
         int numMoved = elementData.length-index-1; //移动的长度
+//        if(numMoved>0){ //排除删掉的是最后一个
+//            System.arraycopy(elementData,index+1,elementData,index,numMoved);
+//            elementData[size-1] = null; //拷贝后往前移动，那么最后一个应该置空
+//        }else{
+//            elementData[size-1] = null;
+//        }
         if(numMoved>0){
             System.arraycopy(elementData,index+1,elementData,index,numMoved);
-            elementData[size-1] = null;
-        }else{
-            elementData[size-1] = null;
         }
+        elementData[--size] = null;
 
     }
 
@@ -103,17 +112,18 @@ public class Mycolloction<E> {
     }
 
     public static void main(String[] args) {
-        Mycolloction s1 = new Mycolloction(20);
+        Mycolloction s1 = new Mycolloction(10);
         s1.add("111");
-        s1.toString();
-        s1.set("333", 50);
         System.out.println(s1); // 这里相当于输出 s1.toString (因为 println 里面的输出被重构了 return (obj == null) ? "null" : obj.toString(); //默认输出对象的 toString)
-        for (int i = 0; i < 40; i++) {
-            s1.add("111");
+        for (int i = 0; i < 20; i++) {
+            s1.add("111"+i);
         }
         System.out.println(s1);
         System.out.println(s1.get(10));
+        s1.remove("11119");
+        System.out.println(s1);
     }
+
 }
 
 
