@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cfed504-74e4-4e33-b13b-53c2f323d6d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/study/io/ByteArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/io/ContentCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/io/FileChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/io/FileCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/io/IOtest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/io/IOtest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/io/IOtest4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/io/gg.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/io/BufferedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/io/DecorateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/io/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/io/imgByteArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/io/timg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gg.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaStuy/images/com" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/study/io/File.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaStuy/cn/study/io/ByteArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStuy/cn/study/io/ByteArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaStuy/cn/study/oo2/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStuy/cn/study/oo2/MyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaStuy/cn/study/oo2/interface_study.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStuy/cn/study/oo2/interface_study.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/study/io/FileCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/study/io/FileCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/study/io/IOtest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/study/io/IOtest4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/study/oo2/interface_study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/study/oo2/interface_study.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,20 +40,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mindustry-master" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/cn/study/io" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20344828" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.study.oo3" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\untitled\src\cn\study\io" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\untitled\src\cn\study\io" />
       <recent name="C:\Users\Administrator\Desktop\untitled\src\images" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="cn.study.oo3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -68,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ByteArray">
+  <component name="RunManager" selected="Application.FileUtils">
     <configuration name="ByteArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.study.io.ByteArray" />
       <module name="javaStuy" />
@@ -95,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.study.io.FileCopy" />
+    <configuration name="FileUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.study.io.FileUtils" />
       <module name="javaStuy" />
       <extension name="coverage">
         <pattern>
@@ -121,8 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOtest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.study.io.IOtest4" />
+    <configuration name="imgByteArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.study.io.imgByteArray" />
       <module name="javaStuy" />
       <extension name="coverage">
         <pattern>
@@ -136,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ByteArray" />
+        <item itemvalue="Application.FileUtils" />
         <item itemvalue="Application.IOtest" />
+        <item itemvalue="Application.imgByteArray" />
+        <item itemvalue="Application.ByteArray" />
         <item itemvalue="Application.FileChar" />
-        <item itemvalue="Application.FileCopy" />
-        <item itemvalue="Application.IOtest4" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +169,7 @@
       <workItem from="1574990760119" duration="23964000" />
       <workItem from="1575252382223" duration="9445000" />
       <workItem from="1575343831102" duration="16099000" />
+      <workItem from="1575422801443" duration="20998000" />
     </task>
     <servers />
   </component>
@@ -184,5 +188,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/study/io/ByteArray.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

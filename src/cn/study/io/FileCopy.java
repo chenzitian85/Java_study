@@ -38,7 +38,7 @@ public class FileCopy {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            //4、释放资源 //先进后出
+            //4、释放资源 //先打开的后关闭
             if (null != os) {
                 os.close();
             }

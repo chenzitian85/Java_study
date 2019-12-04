@@ -14,7 +14,7 @@ public class IOtest4 {
         File src = new File("C:\\Users\\Administrator\\Desktop\\untitled\\src\\cn\\study\\io\\input.txt");
         OutputStream os = null;
         try{
-            os = new FileOutputStream(src); //不存在会创建
+            os = new FileOutputStream(src); //不存在会创建、 源码构造函数会自动创建
             // 操作（写出）
             String msg = "IO test";
             byte[] datas = msg.getBytes();//编码

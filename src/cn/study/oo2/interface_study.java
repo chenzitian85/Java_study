@@ -5,20 +5,16 @@
      */
 package cn.study.oo2;
 
-public class interface_study {
+public interface interface_study {
    /*public static final*/ int MAX_AGE = 100;
 
-    /*public abstract*/ void test01() {
-
-    }
+    /*public abstract*/ void test01();
 }
-class MyClass extends interface_study {
+class MyClass implements interface_study {
     // 接口必须要重写父类
     @Override
-     void test01() {
-        MAX_AGE = 200;
+     public void test01() {
         System.out.println(MAX_AGE);
-        super.test01();
     }
 
     public static void main(String[] args) {
