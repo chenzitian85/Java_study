@@ -12,6 +12,7 @@ import java.io.*;
 public class IOtest {
     public static void main(String[] args) throws IOException {
         File src = new File("C:\\Users\\Administrator\\Desktop\\untitled\\src\\cn\\study\\io\\gg.txt");
+        String a = "111";
         //创建流
         System.out.println(src.exists());//是否存在
         //选择流

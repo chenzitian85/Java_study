@@ -1,1 +1,2 @@
-avc asdasd i am going to smeng 你好
+测试BuffereWriter
+换行了

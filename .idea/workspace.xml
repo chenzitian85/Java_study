@@ -2,18 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cfed504-74e4-4e33-b13b-53c2f323d6d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/study/io/BufferedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/io/DecorateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/io/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/io/imgByteArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/io/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/io/BuffereTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/io/BufferedTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/io/BufferedTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/io/DataInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/io/ObjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/io/TransformStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/io/TransformStream1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaStuy/cn/study/io/ByteArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStuy/cn/study/io/ByteArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaStuy/cn/study/oo2/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStuy/cn/study/oo2/MyClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaStuy/cn/study/oo2/interface_study.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStuy/cn/study/oo2/interface_study.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaStuy/cn/study/io/FileCopy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStuy/cn/study/io/FileCopy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaStuy/cn/study/io/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStuy/cn/study/io/FileUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaStuy/cn/study/io/IOtest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStuy/cn/study/io/IOtest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaStuy/cn/study/io/gg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStuy/cn/study/io/gg.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaStuy/cn/study/io/imgByteArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStuy/cn/study/io/imgByteArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaStuy/cn/study/io/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStuy/cn/study/io/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/study/io/BufferedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/study/io/BufferedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/study/io/FileCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/study/io/FileCopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/study/io/IOtest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/study/io/IOtest4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/study/oo2/interface_study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/study/oo2/interface_study.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/study/io/IOtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/study/io/IOtest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/study/io/gg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/study/io/gg.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/study/io/imgByteArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/study/io/imgByteArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/study/io/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/study/io/input.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,15 +56,16 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="cn.study.oo3" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\untitled\src\cn\study\io" />
+      <recent name="C:\Users\Administrator\Desktop\untitled" />
+      <recent name="C:\Users\Administrator\Desktop\untitled\src\images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\untitled\src\cn\study\io" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\untitled\src\cn\study\io" />
-      <recent name="C:\Users\Administrator\Desktop\untitled\src\images" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.study.oo3" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -71,9 +80,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileUtils">
-    <configuration name="ByteArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.study.io.ByteArray" />
+  <component name="RunManager" selected="Application.TransformStream1">
+    <configuration name="BufferedTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.study.io.BufferedTest2" />
       <module name="javaStuy" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.study.io.FileUtils" />
+    <configuration name="FileCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.study.io.FileCopy" />
       <module name="javaStuy" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOtest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.study.io.IOtest" />
+    <configuration name="TransformStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.study.io.TransformStream" />
       <module name="javaStuy" />
       <extension name="coverage">
         <pattern>
@@ -124,8 +133,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="imgByteArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.study.io.imgByteArray" />
+    <configuration name="TransformStream1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.study.io.TransformStream1" />
       <module name="javaStuy" />
       <extension name="coverage">
         <pattern>
@@ -139,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileUtils" />
-        <item itemvalue="Application.IOtest" />
-        <item itemvalue="Application.imgByteArray" />
-        <item itemvalue="Application.ByteArray" />
+        <item itemvalue="Application.TransformStream1" />
         <item itemvalue="Application.FileChar" />
+        <item itemvalue="Application.TransformStream" />
+        <item itemvalue="Application.BufferedTest2" />
+        <item itemvalue="Application.FileCopy" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +178,8 @@
       <workItem from="1574990760119" duration="23964000" />
       <workItem from="1575252382223" duration="9445000" />
       <workItem from="1575343831102" duration="16099000" />
-      <workItem from="1575422801443" duration="20998000" />
+      <workItem from="1575422801443" duration="21810000" />
+      <workItem from="1575511205712" duration="22082000" />
     </task>
     <servers />
   </component>
@@ -196,6 +206,14 @@
           <url>file://$PROJECT_DIR$/src/cn/study/io/ByteArray.java</url>
           <line>17</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/cn/study/io/FileCopy.java</url>
+          <line>64</line>
+          <properties class="cn.study.io.FileCopy" method="copy1">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
