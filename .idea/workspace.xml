@@ -2,299 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cfed504-74e4-4e33-b13b-53c2f323d6d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_6_sources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-io-2.6-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-io-2.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/CallableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/ImgDownload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/RunnableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/StartThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/Web12360.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/AllState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/BlookSleep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/DaemonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/InfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/LambdaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/MovieTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/PriorityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/ThreadSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/ThreadSafe1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/ThreadStop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/YuieldTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/synchronizedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/synchronizedTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaStuy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaStuy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaStuy/cn/study/io/randomAccessFileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStuy/cn/study/io/randomAccessFileTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/study/commonsIO/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/study/commonsIO/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/NOTICE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/RELEASE-NOTES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/commons-io-2.6-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/commons-io-2.6-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/commons-io-2.6-test-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/commons-io-2.6-tests.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/commons-io-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/allclasses-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/allclasses-noframe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/constant-values.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/deprecated-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/help-doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/index-all.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/ByteOrderMark.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/ByteOrderParser.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/Charsets.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/CopyUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/DirectoryWalker.CancelException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/DirectoryWalker.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/EndianUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/FileCleaner.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/FileCleaningTracker.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/FileDeleteStrategy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/FileExistsException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/FileSystemUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/FileUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/FilenameUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/HexDump.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/IOCase.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/IOExceptionWithCause.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/IOUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/LineIterator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/TaggedIOException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/class-use/ByteOrderMark.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/class-use/ByteOrderParser.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/class-use/Charsets.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/class-use/CopyUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/class-use/DirectoryWalker.CancelException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/class-use/DirectoryWalker.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/class-use/EndianUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/class-use/FileCleaner.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/class-use/FileCleaningTracker.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/class-use/FileDeleteStrategy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/class-use/FileExistsException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/class-use/FileSystemUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/class-use/FileUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/class-use/FilenameUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/class-use/HexDump.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/class-use/IOCase.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/class-use/IOExceptionWithCause.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/class-use/IOUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/class-use/LineIterator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/class-use/TaggedIOException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/comparator/CompositeFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/comparator/DefaultFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/comparator/DirectoryFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/comparator/ExtensionFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/comparator/LastModifiedFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/comparator/NameFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/comparator/PathFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/comparator/SizeFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/comparator/class-use/CompositeFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/comparator/class-use/DefaultFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/comparator/class-use/DirectoryFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/comparator/class-use/ExtensionFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/comparator/class-use/LastModifiedFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/comparator/class-use/NameFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/comparator/class-use/PathFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/comparator/class-use/SizeFileComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/comparator/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/comparator/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/comparator/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/comparator/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/AbstractFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/AgeFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/AndFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/CanReadFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/CanWriteFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/ConditionalFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/DelegateFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/DirectoryFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/EmptyFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/FalseFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/FileFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/FileFilterUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/HiddenFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/IOFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/MagicNumberFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/NameFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/NotFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/OrFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/PrefixFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/RegexFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/SizeFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/SuffixFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/TrueFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/WildcardFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/WildcardFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/AbstractFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/AgeFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/AndFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/CanReadFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/CanWriteFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/ConditionalFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/DelegateFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/DirectoryFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/EmptyFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/FalseFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/FileFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/FileFilterUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/HiddenFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/IOFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/MagicNumberFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/NameFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/NotFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/OrFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/PrefixFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/RegexFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/SizeFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/SuffixFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/TrueFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/WildcardFileFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/class-use/WildcardFilter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/filefilter/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/AutoCloseInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/BOMInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/BoundedInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/BoundedReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/BrokenInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/CharSequenceInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/CharSequenceReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/ClassLoaderObjectInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/CloseShieldInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/ClosedInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/CountingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/DemuxInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/InfiniteCircularInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/MessageDigestCalculatingInputStream.MessageDigestMaintainingObserver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/MessageDigestCalculatingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/NullInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/NullReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/ObservableInputStream.Observer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/ObservableInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/ProxyInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/ProxyReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/ReaderInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/ReversedLinesFileReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/SwappedDataInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/TaggedInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/Tailer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/TailerListener.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/TailerListenerAdapter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/TeeInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/UnixLineEndingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/WindowsLineEndingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/XmlStreamReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/XmlStreamReaderException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/AutoCloseInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/BOMInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/BoundedInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/BoundedReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/BrokenInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/CharSequenceInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/CharSequenceReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/ClassLoaderObjectInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/CloseShieldInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/ClosedInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/CountingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/DemuxInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/InfiniteCircularInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/MessageDigestCalculatingInputStream.MessageDigestMaintainingObserver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/MessageDigestCalculatingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/NullInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/NullReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/ObservableInputStream.Observer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/ObservableInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/ProxyInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/ProxyReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/ReaderInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/ReversedLinesFileReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/SwappedDataInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/TaggedInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/Tailer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/TailerListener.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/TailerListenerAdapter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/TeeInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/UnixLineEndingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/WindowsLineEndingInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/XmlStreamReader.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/class-use/XmlStreamReaderException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/input/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/monitor/FileAlterationListener.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/monitor/FileAlterationListenerAdaptor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/monitor/FileAlterationMonitor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/monitor/FileAlterationObserver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/monitor/FileEntry.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/monitor/class-use/FileAlterationListener.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/monitor/class-use/FileAlterationListenerAdaptor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/monitor/class-use/FileAlterationMonitor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/monitor/class-use/FileAlterationObserver.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/monitor/class-use/FileEntry.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/monitor/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/monitor/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/monitor/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/monitor/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/AppendableOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/BrokenOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/ByteArrayOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/ChunkedOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/ChunkedWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/CloseShieldOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/ClosedOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/CountingOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/DeferredFileOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/DemuxOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/FileWriterWithEncoding.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/LockableFileWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/NullOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/NullWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/ProxyOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/ProxyWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/StringBuilderWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/TaggedOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/TeeOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/ThresholdingOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/WriterOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/XmlStreamWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/AppendableOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/BrokenOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/ByteArrayOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/ChunkedOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/ChunkedWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/CloseShieldOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/ClosedOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/CountingOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/DeferredFileOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/DemuxOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/FileWriterWithEncoding.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/LockableFileWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/NullOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/NullWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/ProxyOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/ProxyWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/StringBuilderWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/TaggedOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/TeeOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/ThresholdingOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/WriterOutputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/class-use/XmlStreamWriter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/output/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/serialization/ClassNameMatcher.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/serialization/ValidatingObjectInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/serialization/class-use/ClassNameMatcher.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/serialization/class-use/ValidatingObjectInputStream.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/serialization/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/serialization/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/serialization/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/org/apache/commons/io/serialization/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/overview-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/overview-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/overview-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/package-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/serialized-form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/commons-io-2.6/docs/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaStuy/cn/study/thread/Web12360.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStuy/cn/study/thread/Web12360.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/study/thread/CallableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/study/thread/CallableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/study/thread/Web12360.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/study/thread/Web12360.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -372,9 +97,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Web12360">
-    <configuration name="ImgDownload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.study.thread.ImgDownload" />
+  <component name="RunManager" selected="Application.MovieTicket">
+    <configuration name="MovieTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.study.thread.MovieTicket" />
       <module name="javaStuy" />
       <extension name="coverage">
         <pattern>
@@ -386,38 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.study.thread.RunnableTest" />
+    <configuration name="TestDeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.study.thread.TestDeadLock" />
       <module name="javaStuy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.study.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StartThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.study.thread.StartThread" />
-      <module name="javaStuy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.study.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.study.commonsIO.Test" />
-      <module name="javaStuy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.study.commonsIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -438,13 +137,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="synchronizedTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.study.thread.synchronizedTest2" />
+      <module name="javaStuy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.study.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="synchronizedTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.study.thread.synchronizedTest3" />
+      <module name="javaStuy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.study.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MovieTicket" />
+        <item itemvalue="Application.TestDeadLock" />
         <item itemvalue="Application.Web12360" />
-        <item itemvalue="Application.RunnableTest" />
-        <item itemvalue="Application.ImgDownload" />
-        <item itemvalue="Application.StartThread" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.synchronizedTest3" />
+        <item itemvalue="Application.synchronizedTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +199,12 @@
       <workItem from="1575511205712" duration="22657000" />
       <workItem from="1575596100089" duration="20205000" />
       <workItem from="1575626967160" duration="2218000" />
-      <workItem from="1575856946794" duration="15462000" />
+      <workItem from="1575856946794" duration="16452000" />
+      <workItem from="1576049203814" duration="7241000" />
+      <workItem from="1576115658421" duration="408000" />
+      <workItem from="1576130153365" duration="2974000" />
+      <workItem from="1576200040602" duration="3367000" />
+      <workItem from="1576215706039" duration="14989000" />
     </task>
     <servers />
   </component>

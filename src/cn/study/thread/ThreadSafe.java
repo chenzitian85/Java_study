@@ -1,9 +1,11 @@
 /*
-* 对同一份资源进行代理（并发）这里具有线程不安全的问题
+* 线程不安全、同一份数据（同个对象，多个线程争夺资源）可能会出现负数或者相同的数
+* 不是所有情况都要去处理线程不安全。改数据或者插数据的时候可能需要，查询一般不用
 * */
 package cn.study.thread;
-public class Web12360 implements Runnable {
-// 票数
+
+public class ThreadSafe implements Runnable{
+    // 票数
     private int ticketNums = 10;
     @Override
     public void run() {
@@ -12,7 +14,7 @@ public class Web12360 implements Runnable {
                 break;
             }
             try {
-                Thread.sleep(2000); //模拟延时
+                Thread.sleep(2000); //模拟延时 , 这里是因为出现了延时才会到之后不安全
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -29,4 +31,3 @@ public class Web12360 implements Runnable {
         new Thread(web,"3").start();
     }
 }
-

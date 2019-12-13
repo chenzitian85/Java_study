@@ -5,17 +5,7 @@ package cn.study.thread;
 
 import java.util.concurrent.Callable;
 
-public class CallableTest implements Callable <boolean>{
-
-
-    @Override
-    public Object call() throws Exception {
-        for (int i = 0; i < 20; i++) {
-            System.out.println("111");
-        }
-        return true;
-    }
-
+public class CallableTest {
         public static void main(String[] args) {
             //创建实现类对象
             StartThread st = new StartThread();

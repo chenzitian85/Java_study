@@ -1,10 +1,12 @@
 /*
-* 对同一份资源进行代理（并发）这里具有线程不安全的问题
+* sleep 阻塞进程
+* 模拟网络延时、定时器
 * */
 package cn.study.thread;
-public class Web12360 implements Runnable {
-// 票数
-    private int ticketNums = 10;
+
+public class BlookSleep implements Runnable {
+    // 票数
+    private int ticketNums = 99;
     @Override
     public void run() {
         while(true){
@@ -12,7 +14,7 @@ public class Web12360 implements Runnable {
                 break;
             }
             try {
-                Thread.sleep(2000); //模拟延时
+                Thread.sleep(2000); //模拟延时、毫秒 这里是静态方法，哪个线程 sleep 哪个线程就阻塞
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -29,4 +31,3 @@ public class Web12360 implements Runnable {
         new Thread(web,"3").start();
     }
 }
-
