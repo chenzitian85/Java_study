@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cfed504-74e4-4e33-b13b-53c2f323d6d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/AllState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/BlookSleep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/DaemonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/DeadLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/InfoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/LambdaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/MovieTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/PriorityTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/ThreadSafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/ThreadSafe1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/ThreadStop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/YuieldTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/synchronizedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/synchronizedTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/study/thread/cooperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaStuy/cn/study/thread/Web12360.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaStuy/cn/study/thread/Web12360.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/study/thread/CallableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/study/thread/CallableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/study/thread/Web12360.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/study/thread/Web12360.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MovieTicket">
+  <component name="RunManager" selected="Application.cooperation">
     <configuration name="MovieTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.study.thread.MovieTicket" />
       <module name="javaStuy" />
@@ -137,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="synchronizedTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.study.thread.synchronizedTest2" />
+    <configuration name="cooperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.study.thread.cooperation" />
       <module name="javaStuy" />
       <extension name="coverage">
         <pattern>
@@ -165,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.cooperation" />
         <item itemvalue="Application.MovieTicket" />
         <item itemvalue="Application.TestDeadLock" />
         <item itemvalue="Application.Web12360" />
         <item itemvalue="Application.synchronizedTest3" />
-        <item itemvalue="Application.synchronizedTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +189,7 @@
       <workItem from="1576130153365" duration="2974000" />
       <workItem from="1576200040602" duration="3367000" />
       <workItem from="1576215706039" duration="14989000" />
+      <workItem from="1576462276022" duration="6122000" />
     </task>
     <servers />
   </component>
